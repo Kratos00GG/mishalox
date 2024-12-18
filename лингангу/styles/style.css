@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#header,#main,#footer,#wrapper{
+    width: 100%;
+}
+
+#wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 15%;
+    background-color: rgb(216, 163, 6);
+    display: flex;
+}
+#main{
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+#footer{
+    height: 15%;
+    display: flex;
+}
+.back{
+    height: 60%;
+    width: 25%;
+    background-color: rgb(255, 187, 0);
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    border-radius: 15px;
+    
+}
+.text{
+    font-size: 40px;
+    margin: auto;
+}
+.arrow{
+    margin-left: 60px;
+    width: 15%;
+}
+.sett{
+    height: 60%;
+    width: 25%;
+    background-color: rgb(255, 187, 0);
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    border-radius: 15px;
+    margin-left: 1000px;
+}
+.gear{
+    margin-right: 60px;
+    width: 15%;
+}
+.text2{
+    font-size: 40px;
+    margin: auto;
+}
+.home1{
+    justify-content: center;
+    width: 25%;
+}
+.home{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.kol1{
+    justify-content: center;
+    width: 25%;
+}
+.kol{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.mail1{
+    justify-content: center;
+    width: 25%;
+}
+.mail{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.user1{
+    justify-content: center;
+    width: 25%;
+}
+.user{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+}
